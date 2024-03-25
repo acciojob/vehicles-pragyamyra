@@ -50,7 +50,7 @@ public class Vehicle {
     }
 
     public void stop(){
-
+         this.currentSpeed=0;
         System.out.println("stop method called - The vehicle is stopped");
     }
 
